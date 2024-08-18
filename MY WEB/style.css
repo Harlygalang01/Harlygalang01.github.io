@@ -1,0 +1,389 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20220313/pngtree-pleated-white-paper-texture-solid-background-image_1055379.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans' ,sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+
+}
+
+.logo a {
+    float: left;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background: #040D12;
+    z-index: 1;
+    border-bottom: 3px solid #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.kolom .deskripsi {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #021526;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: #021526;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.esay {
+    list-style: decimal;
+    font-weight: bold;
+    font-size: large;
+}
+.esay2 {
+    color: red;
+    text-decoration: underline;
+    list-style: none;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    left: 45px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+
+}
+.lahir {
+    position: relative;
+    left: 43px;
+    bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.5;
+}
+
+.isi {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.isi1 {
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    position: relative;
+    left: 23px;
+}
+
+.isi3 {
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    position: relative;
+    bottom: 12px;
+    left: 45px;
+}
+
+.isi4 {
+    background: #ffffff;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+
+}
+
+ .mid {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    text-decoration: underline;
+ }
+
+ .gambar {
+    width: 300px;
+    height: 200px;
+    text-wrap: auto;
+    float: left;
+    margin-right: 20px;
+ }
+
+ .gambar1 {
+    position: relative;
+    left: 45px;
+    margin-right: 20px;
+    width: 110px;
+    height: 160px;
+    float: left;
+    margin-right: 20px;
+  
+ }
+
+ .tbl-merah {
+    background-color: black; /* Warna latar belakang tombol */
+            border: none; /* Menghapus border default */
+            margin-top: 0px ;
+            color: white; /* Warna teks tombol */
+            display: inline-flex;
+            text-align: center; /* Teks di tengah tombol */
+            text-decoration: none; /* Menghapus garis bawah pada teks */
+            font-size: 16px; /* Ukuran font */
+            cursor: pointer; /* Menampilkan kursor pointer saat hover */
+            border-radius: 40px; /* Sudut membulat */
+            transition: background-color 0.3s ease; /* Efek transisi */
+ }
+
+ .tbl-merah:hover {
+    background: #ffffff;
+    text-decoration: none;
+    color: black;
+
+ }
+
+ .motivasi {
+    background-image: url(https://th.bing.com/th/id/OIP.xJ5uBO36kdaOLMiGhTI8ZgHaEJ?w=284&h=180&c=7&r=0&o=5&pid=1.7);opacity: 0.5;
+    border-radius: 20px;
+    text-decoration: dashed;
+    font-size: 28px;
+    font-family: 'Great vibes', cursive;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    bottom: 0;
+}
+
+.footer {
+    background-color: #040D12;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px ;
+    margin-top: 80px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+    display: inline-block ;
+    vertical-align: top;
+}
+
+@media {max-height: 800px;} {
+        footer {
+            position: static;
+        }
+        header {
+            padding-top: 40px;
+        }
+}
+
+.footer .footer-left {
+    width: 30%;
+}
+
+.footer h3 {
+    color: #ffffff;
+    margin: 0;
+    padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer .footer-left img {
+    width: 25%;
+    vertical-align: middle;
+}
+
+.footer .footer-left .Account-Login {
+    width: 100%;
+}
+
+.footer .footer-copyright {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 30%;
+}
+
+.footer .footer-center {
+    width: 35%;
+}
+
+.footer .footer-center i {
+    background-color: #040D12;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0 px;
+}
+
+.footer .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer .footer-center p a {
+    color:rgb(22, 255, 177);
+    text-decoration: underline;
+
+}
+
+.footer .footer-right {
+    width: 30%;
+}
+
+.footer .footer-about {
+    line-height: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0px;
+} 
+
+.footer .footer-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .footer-media {
+    margin-top: 25px;
+}
+
+.footer .footer-media a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #021526;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer .footer-media a:hover {
+    background-color: green;
+}
+
+@media {max-width: 880px ;}  {
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+    display: block ;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: left;
+}
+}
+
+.footer .footer-center i {
+    margin-left: 0px;
+}
+    
+
+    
